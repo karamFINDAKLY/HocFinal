@@ -1,0 +1,73 @@
+body {
+	background: #d2d2d2;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: middle;
+}
+#container {
+	width: 80%;
+	margin: 50px auto;
+	padding: 2px 20px 20px 20px;
+	background: #fff;
+}
+
+.post_message  {
+	width: 95%;
+	margin: auto;
+	border: 1px solid #d2d2d2;
+	background: #f8fafd;
+	padding: 3px;
+}
+.post_message #message {
+	width: 80%;
+}
+.post_message #post {
+	width: 18%;
+}
+
+.chat {
+	width: 95%;
+	margin: 10px auto;
+	border: 1px solid #d2d2d2;
+	padding: 0px;
+}
+.chat #loading {
+	margin-top: 50px;
+}
+.chat #annonce {
+	background: #f8fafd;
+	margin: -6px -7px 5px -7px;
+	padding: 5px;
+	height:20px;
+	box-shadow: 8px 8px 12px #aaa;
+	-webkit-box-shadow: 0px 8px 15px #aaa;
+}
+.chat #text-td {
+	margin: 0px; 
+	padding: 5px; 
+	width: 80%; 
+	background: #fff; 
+}
+.chat #users-td, .chat #users-chat-td {
+	margin: 0px; 
+	padding: 5px; 
+	width: 20%; 
+	background: #ddd;
+}
+.chat #text, .chat #users, .chat #users-chat {
+	height:500px; 
+	overflow-y: auto;
+}
+
+#status{
+	display: block;
+	width:200px;
+	margin-left:auto;
+}
+
+.info {
+	color: green;
+}

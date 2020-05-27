@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="chat.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form method="post" action="new_session.php">
+
+        <h1>Connecter vous ou crée votre compte</h1>
+
+     <fieldset style="width: 25%">
+        <br><legend>Connection</legend>
+        <br><label for="prenom">Quel est votre identifiant</label>
+        <br><input type="text" name="prenom" id="prénom" />
+          
+        <br><label for="mot de passe">Quel est votre mot de passe</label>
+        <br><input type="password" name="mdp" id="mdp" />
+         
+    </fieldset>
+    <button type="submit">Connection</button>
+
+</form>
+<form method="post" action="create_user.php">
+    <fieldset style="width: 25%">
+        <legend>crée votre compte</legend>
+ 
+        <br><label for="prenom">Quel est votre identifiant</label>
+        <br><input type="text" name="prenom" id="prenom" />
+  
+        <br><label for="mot de passe">Quel est votre mot de passe</label>
+        <br><input type="password" name="mdp" id="mdp" />
+        
+        <br><label for="comfirmation mot de passe">comfirmer votre mot de passe</label>
+        <br><input type="password" name="mdpconf" id="mdpconf" />
+ 
+    </fieldset>
+    <button type="submit">Crée</button>
+</form>
+</body>
+</html>
